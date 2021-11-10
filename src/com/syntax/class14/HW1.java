@@ -12,7 +12,7 @@ public class HW1 {
 		// Find out how many alpha characters are there in the String.
 		
 		String b="HGFCDuygkjsbdf9274658253!@#$%^&*)(*&^%";
-		System.out.println(b.replaceAll("[^A-Za-z0-9]", "").length());
+		System.out.println(b.replaceAll("[^A-Za-z0-9*&@]", "").length());
 		
 		// You have a String a=”Is it Saturday? Is it raining? Do we have a Java Class today?”
 		// How would you find out how many sentences are in that String?
