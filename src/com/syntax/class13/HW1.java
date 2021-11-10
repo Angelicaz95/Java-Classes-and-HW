@@ -16,13 +16,20 @@ public class HW1 {
 		System.out.println(reverse);
 		
 		
-		// 2. Using StingBuffer class. Reverse function is available in StringBufer class because it is mutable. 
+		// 2. Using StringBuffer class. Reverse function is available in StringBufer class because it is mutable. 
 		// String class is immutable, reverse function is not available there. 
 		
 		StringBuffer s=new StringBuffer(day);
 		System.out.println(s.reverse());
 		
+		
+		
+		
+		String str="Sunday";
+		for (int i=str.length()-1; i>=0; i--)
+			System.out.print(str.charAt(i)+" ");
+		}
+			}
+		
 
-	}
-
-}
+	
